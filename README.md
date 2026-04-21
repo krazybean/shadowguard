@@ -2,7 +2,7 @@
 
 > See permission failures before they break production.
 
-[![npm version](https://img.shields.io/npm/v/shadowguard.svg)](https://www.npmjs.com/package/shadowguard)  
+[![npm version](https://img.shields.io/npm/v/shadowguard.svg)](https://www.npmjs.com/package/shadowguard)
 [![license](https://img.shields.io/npm/l/shadowguard.svg)](LICENSE)
 
 ---
@@ -184,4 +184,4 @@ Guarantees:
  npx tsx examples/basic.ts
  ```
 
- 
+
