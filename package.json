@@ -1,5 +1,5 @@
 {
-  "name": "shadowguard",
+  "name": "@krazybean/shadowguard",
   "version": "0.1.1",
   "description": "Audit-first permission checks for TypeScript applications.",
   "license": "MIT",
