@@ -1,6 +1,6 @@
 {
   "name": "shadowguard",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Audit-first permission checks for TypeScript applications.",
   "license": "MIT",
   "type": "commonjs",
