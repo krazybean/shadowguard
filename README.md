@@ -2,8 +2,8 @@
 
 > See permission failures before they break production.
 
-[![npm version](https://img.shields.io/npm/v/shadowguard.svg)](https://www.npmjs.com/package/shadowguard)
-[![license](https://img.shields.io/npm/l/shadowguard.svg)](LICENSE)
+[![npm version](https://img.shields.io/npm/v/@krazybean/shadowguard.svg)](https://www.npmjs.com/package/@krazybean/shadowguard)
+[![license](https://img.shields.io/npm/l/@krazybean/shadowguard.svg)](LICENSE)
 
 ---
 
