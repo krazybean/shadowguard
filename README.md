@@ -26,7 +26,7 @@ it’s introducing them safely.
 ## Installation
 
 ```bash
-npm install shadowguard
+npm install @krazybean/shadowguard
 ```
 
 ## Basic Usage
