@@ -1,14 +1,34 @@
 # shadowguard
 
+[![npm version](https://img.shields.io/npm/v/shadowguard.svg)](https://www.npmjs.com/package/shadowguard)
+[![license](https://img.shields.io/npm/l/shadowguard.svg)](LICENSE)
+[![tests](https://img.shields.io/badge/tests-passing-brightgreen)](#)
+
+## Why this exists
+
+Most permission bugs don’t show up until production.
+
+shadowguard lets you see what will break before enforcing anything.
+
+## What this is
+
 A tiny safety layer for permission checks.
 
-`shadowguard` helps you add permission checks without risky production breakage.
+## What this is NOT
 
-Start in audit mode, see what would be denied, then enforce when ready.
+- Not an auth system
+- Not role management
+- Not a framework
 
 ## One-line idea
 
 Check a capability now, enforce later.
+
+## Try it in 10 seconds
+
+```bash
+npm install shadowguard
+```
 
 ## Install
 
@@ -28,19 +48,6 @@ That is the core workflow.
 
 - `mode: "log"` means: do not break flows, log what would have been blocked.
 - later, switch to `mode: "enforce"` to throw on denied access.
-
-## What this library is
-
-- A small wrapper around permission checks
-- A safe path from observation to enforcement
-- Useful when you want audit-first rollout
-
-## What this library is not
-
-- Not an auth system
-- Not role storage
-- Not login/session management
-- Not a policy framework
 
 ## 🧪 Real-world example
 
