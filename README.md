@@ -1,4 +1,5 @@
 # shadowguard
+A tiny safety layer for permission checks.
 
 > See permission failures before they break production.
 
@@ -118,8 +119,7 @@ onst user = {
 requireCapability(user, "admin", { mode: "log" })
 ```
 
-shadowguard does not replace your system —
-it wraps it safely.
+shadowguard doesn’t replace your system — it wraps it safely.
 
 ## Safe rollout strategy
 
@@ -167,16 +167,16 @@ requireCapability(user, capability, options?)
 }
 ```
 
-## Testing
-```js
-npm test
-```
-
-Guarantees:
+## Guarantees:
 
  - `log` mode never throws
  - `enforce` mode throws when unauthorized
  - logging is consistent
+
+## Testing
+```js
+npm test
+```
 
  Running the example:
 
