@@ -1,0 +1,32 @@
+{
+  "name": "shadowguard",
+  "version": "0.1.0",
+  "description": "Audit-first permission checks for TypeScript applications.",
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "authorization",
+    "permissions",
+    "audit",
+    "typescript",
+    "feature-flags"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.8"
+  }
+}
