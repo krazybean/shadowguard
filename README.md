@@ -1,19 +1,28 @@
 # shadowguard
 
-See permission failures before they break production.
+> See permission failures before they break production.
 
-Most permission bugs don’t show up until production.
+[![npm version](https://img.shields.io/npm/v/shadowguard.svg)](https://www.npmjs.com/package/shadowguard)
+[![license](https://img.shields.io/npm/l/shadowguard.svg)](LICENSE)
 
-You deploy a new check, and suddenly users are locked out, endpoints break, or behavior changes in ways you didn’t expect.
-
-shadowguard lets you see what would fail before enforcing anything.
+---
 
 ## What this is
 
-A tiny safety layer for permission checks that lets you start in audit mode, learn what would fail, and enforce safely when you are ready.
+A tiny safety layer for permission checks.
 
-## Quick example
+Most permission bugs don’t show up until production.
 
-```ts
-requireCapability(user, "admin", { mode: "log" });
-```
+You deploy a new check, and suddenly:
+- users get locked out
+- endpoints start failing
+- behavior changes in ways you didn’t expect
+
+**shadowguard lets you see what would fail before enforcing anything.**
+
+---
+
+## Install
+
+```bash
+npm install shadowguard
