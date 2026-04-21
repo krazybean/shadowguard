@@ -46,6 +46,6 @@ git push origin main --follow-tags
 
 # Publish to npm
 echo "Publishing to npm..."
-npm publish
+npm publish --access public
 
 echo "Release complete!"
